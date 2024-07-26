@@ -18,7 +18,7 @@ export default defineConfig({
   plugins: [makeManifest(), preact()],
   publicDir,
   build: {
-    sourcemap: true,
+    sourcemap: false,
     outDir,
     rollupOptions: {
       input: {
